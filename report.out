@@ -1,0 +1,53 @@
+\BOOKMARK [0][]{chapter.1}{Introduction To Organisation}{}% 1
+\BOOKMARK [0][]{chapter.2}{Introduction to Project}{}% 2
+\BOOKMARK [1][]{section.2.1}{Overview}{chapter.2}% 3
+\BOOKMARK [2][]{subsection.2.1.1}{What is OSM?}{section.2.1}% 4
+\BOOKMARK [2][]{subsection.2.1.2}{ Map production}{section.2.1}% 5
+\BOOKMARK [2][]{subsection.2.1.3}{ Route planning}{section.2.1}% 6
+\BOOKMARK [2][]{subsection.2.1.4}{Data storage}{section.2.1}% 7
+\BOOKMARK [1][]{section.2.2}{The Existing System}{chapter.2}% 8
+\BOOKMARK [2][]{subsection.2.2.1}{Limitations of previous system }{section.2.2}% 9
+\BOOKMARK [2][]{subsection.2.2.2}{Advantages of shifting the system from CGI to PHP:}{section.2.2}% 10
+\BOOKMARK [1][]{section.2.3}{User Requirement Analysis}{chapter.2}% 11
+\BOOKMARK [1][]{section.2.4}{Feasibility Study}{chapter.2}% 12
+\BOOKMARK [1][]{section.2.5}{Types of Feasibility}{chapter.2}% 13
+\BOOKMARK [2][]{subsection.2.5.1}{Technical Feasibility}{section.2.5}% 14
+\BOOKMARK [2][]{subsection.2.5.2}{Economic Feasibility}{section.2.5}% 15
+\BOOKMARK [2][]{subsection.2.5.3}{Operational Feasibility}{section.2.5}% 16
+\BOOKMARK [2][]{subsection.2.5.4}{Technological Feasibility}{section.2.5}% 17
+\BOOKMARK [2][]{subsection.2.5.5}{Behavioral Feasibility}{section.2.5}% 18
+\BOOKMARK [1][]{section.2.6}{Objective of Project}{chapter.2}% 19
+\BOOKMARK [0][]{chapter.3}{Project Design}{}% 20
+\BOOKMARK [1][]{section.3.1}{Software Requirement Analysis}{chapter.3}% 21
+\BOOKMARK [2][]{subsection.3.1.1}{Functional Requirements}{section.3.1}% 22
+\BOOKMARK [1][]{section.3.2}{Other Specifications}{chapter.3}% 23
+\BOOKMARK [1][]{section.3.3}{Problem Formulation}{chapter.3}% 24
+\BOOKMARK [1][]{section.3.4}{Facilities required for proposed work}{chapter.3}% 25
+\BOOKMARK [2][]{subsection.3.4.1}{Hardware Requirements}{section.3.4}% 26
+\BOOKMARK [2][]{subsection.3.4.2}{Software Requirements}{section.3.4}% 27
+\BOOKMARK [1][]{section.3.5}{Methodology}{chapter.3}% 28
+\BOOKMARK [1][]{section.3.6}{Project Work}{chapter.3}% 29
+\BOOKMARK [0][]{chapter.4}{Development and Implementation}{}% 30
+\BOOKMARK [1][]{section.4.1}{Introduction to tools}{chapter.4}% 31
+\BOOKMARK [2][]{subsection.4.1.1}{NetworkX}{section.4.1}% 32
+\BOOKMARK [2][]{subsection.4.1.2}{OSMnx}{section.4.1}% 33
+\BOOKMARK [1][]{section.4.2}{ Introduction to OSM}{chapter.4}% 34
+\BOOKMARK [1][]{section.4.3}{Ubuntu: An open source OS}{chapter.4}% 35
+\BOOKMARK [1][]{section.4.4}{Introduction to Reveal-js \046 Reveal-md}{chapter.4}% 36
+\BOOKMARK [2][]{subsection.4.4.1}{Installation of reveal-md}{section.4.4}% 37
+\BOOKMARK [1][]{section.4.5}{Introduction to LaTeX}{chapter.4}% 38
+\BOOKMARK [2][]{subsection.4.5.1}{Typesetting}{section.4.5}% 39
+\BOOKMARK [1][]{section.4.6}{Introduction to Github}{chapter.4}% 40
+\BOOKMARK [2][]{subsection.4.6.1}{What is Git?}{section.4.6}% 41
+\BOOKMARK [2][]{subsection.4.6.2}{Installation of Git}{section.4.6}% 42
+\BOOKMARK [2][]{subsection.4.6.3}{Various Git Commands}{section.4.6}% 43
+\BOOKMARK [3][]{subsubsection.4.6.3.1}{Create Repositories}{subsection.4.6.3}% 44
+\BOOKMARK [3][]{subsubsection.4.6.3.2}{Make Changes}{subsection.4.6.3}% 45
+\BOOKMARK [3][]{subsubsection.4.6.3.3}{Group Changes}{subsection.4.6.3}% 46
+\BOOKMARK [3][]{subsubsection.4.6.3.4}{Synchronize Changes}{subsection.4.6.3}% 47
+\BOOKMARK [0][]{chapter.5}{Experimental Results and Comparison}{}% 48
+\BOOKMARK [1][]{section.5.1}{Experimental Results}{chapter.5}% 49
+\BOOKMARK [2][]{subsection.5.1.1}{Testing}{section.5.1}% 50
+\BOOKMARK [0][]{chapter.6}{Conclusion,Summary and Future Scope}{}% 51
+\BOOKMARK [1][]{section.6.1}{Future Scope}{chapter.6}% 52
+\BOOKMARK [1][]{section.6.2}{Technical and Managerial Lesson Learnt}{chapter.6}% 53
