@@ -5,32 +5,30 @@
 \contentsline {subsection}{\numberline {2.1.2} Map production}{3}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3} Route planning}{4}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Data storage}{4}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}The Existing System}{4}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Limitations of previous system }{4}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Advantages of shifting the system from CGI to PHP:}{5}{subsection.2.2.2}
-\contentsline {section}{\numberline {2.3}User Requirement Analysis}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Feasibility Study}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Types of Feasibility}{6}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Technical Feasibility}{6}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Economic Feasibility}{7}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Operational Feasibility}{8}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Technological Feasibility}{8}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Behavioral Feasibility}{8}{subsection.2.5.5}
-\contentsline {section}{\numberline {2.6}Objective of Project}{9}{section.2.6}
-\contentsline {chapter}{\numberline {3}Project Design}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Software Requirement Analysis}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Functional Requirements}{11}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Other Specifications}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}Problem Formulation}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Facilities required for proposed work}{12}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Hardware Requirements}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Software Requirements}{12}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Methodology}{12}{section.3.5}
-\contentsline {section}{\numberline {3.6}Project Work}{12}{section.3.6}
-\contentsline {chapter}{\numberline {4}Development and Implementation}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction to tools}{14}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}NetworkX}{14}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}OSMnx}{15}{subsection.4.1.2}
+\contentsline {section}{\numberline {2.2}User Requirement Analysis}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Feasibility Study}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Types of Feasibility}{5}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Technical Feasibility}{5}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Economic Feasibility}{6}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Operational Feasibility}{7}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Technological Feasibility}{7}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Behavioral Feasibility}{7}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Objective of Project}{8}{section.2.5}
+\contentsline {chapter}{\numberline {3}Project Design}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Software Requirement Analysis}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Functional Requirements}{9}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Other Specifications}{10}{section.3.2}
+\contentsline {section}{\numberline {3.3}Problem Formulation}{11}{section.3.3}
+\contentsline {section}{\numberline {3.4}Facilities required for proposed work}{11}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Hardware Requirements}{11}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Software Requirements}{11}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Methodology}{11}{section.3.5}
+\contentsline {section}{\numberline {3.6}Project Work}{11}{section.3.6}
+\contentsline {chapter}{\numberline {4}Development and Implementation}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to tools}{13}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}OSMnx}{13}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}NetworkX}{14}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}GraphFrames}{15}{subsection.4.1.3}
 \contentsline {section}{\numberline {4.2} Introduction to OSM}{17}{section.4.2}
 \contentsline {section}{\numberline {4.3}Ubuntu: An open source OS}{19}{section.4.3}
 \contentsline {section}{\numberline {4.4}Introduction to Reveal-js \& Reveal-md}{20}{section.4.4}
@@ -43,12 +41,16 @@
 \contentsline {subsection}{\numberline {4.6.3}Various Git Commands}{25}{subsection.4.6.3}
 \contentsline {subsubsection}{\numberline {4.6.3.1}Create Repositories}{25}{subsubsection.4.6.3.1}
 \contentsline {subsubsection}{\numberline {4.6.3.2}Make Changes}{25}{subsubsection.4.6.3.2}
-\contentsline {subsubsection}{\numberline {4.6.3.3}Group Changes}{26}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.3}Group Changes}{25}{subsubsection.4.6.3.3}
 \contentsline {subsubsection}{\numberline {4.6.3.4}Synchronize Changes}{26}{subsubsection.4.6.3.4}
 \contentsline {chapter}{\numberline {5}Experimental Results and Comparison}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}Experimental Results}{27}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Testing}{29}{subsection.5.1.1}
-\contentsline {chapter}{\numberline {6}Conclusion,Summary and Future Scope}{30}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future Scope}{30}{section.6.1}
-\contentsline {section}{\numberline {6.2}Technical and Managerial Lesson Learnt}{30}{section.6.2}
-\contentsfinish 
+\contentsline {subsubsection}{\numberline {5.1.0.1}Create Road Networks}{28}{subsubsection.5.1.0.1}
+\contentsline {subsubsection}{\numberline {5.1.0.2}Create Road Networks}{28}{subsubsection.5.1.0.2}
+\contentsline {subsubsection}{\numberline {5.1.0.3}Create Road Networks}{28}{subsubsection.5.1.0.3}
+\contentsline {section}{\numberline {5.2}Conclusions}{28}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}When to use NetworkX}{28}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}When not to use NetworkX}{29}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}Conclusion,Summary and Future Scope}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future Scope}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Technical and Managerial Lesson Learnt}{31}{section.6.2}

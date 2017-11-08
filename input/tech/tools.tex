@@ -1,5 +1,49 @@
 \section{Introduction to tools}
-These are the tools that help us to reduce the work of the developer by just providing the function ready for the direct usage. 
+These are the tools that help us to reduce the work of the developer by just providing the function ready for the direct usage.
+
+\subsection{OSMnx}
+
+\begin{figure}[h]
+\centering \includegraphics[scale=0.50]{input/images/osmnx.png}
+\caption{OSMnx map of manhattan}
+\end{figure}
+OSMnx: retrieve, construct, analyze, and visualize street networks from OpenStreetMap. OSMnx is a Python package that lets you download spatial geometries and construct, project, visualize, and analyze street networks from OpenStreetMap’s APIs. Users can download and construct walkable, drivable, or bikable urban networks with a single line of Python code, and then easily analyze and visualize them.\\
+
+{\bf Features}
+\begin{itemize}
+\item Download street networks anywhere in the world with a single line of code
+\item Download other infrastructure network types, place polygons, or building footprints as well
+\item Download by city name, polygon, bounding box, or point/address + network distance
+\item Get drivable, walkable, bikable, or all street networks
+\item Visualize the street network as a static image or leaflet web map
+\item Simplify and correct the network’s topology to clean and consolidate intersections
+\item Save networks to disk as shapefiles or GraphML
+\item Conduct topological and spatial analyses to automatically calculate dozens of indicators
+\item Calculate and plot shortest-path routes as a static image or leaflet web map
+\item Plot figure-ground diagrams of street networks and/or building footprints
+\item Download node elevations and calculate edge grades
+\item Visualize travel distance and travel time with isoline and isochrone maps
+\item Calculate and visualize street bearings and orientations\\
+
+\end{itemize}
+
+
+{\bf Installation}
+\begin{verbatim}
+$ sudo apt-get install python-pip python-virtualenv
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install osmnx
+\end{verbatim}
+
+{\bf Usage}
+\begin{verbatim}
+import osmnx as ox
+G = ox.graph_from_place('Punjab, India', network_type='drive')
+ox.plot_graph(ox.project_graph(G))
+\end{verbatim}
+
+
 \subsection{NetworkX}
 
 \begin{figure}[h]
@@ -44,44 +88,46 @@ PageRank computes a ranking of the nodes in the graph G based on the structure o
 
 \end{itemize}
 
-\subsection{OSMnx}
 
-\begin{figure}[h]
-\centering \includegraphics[scale=0.50]{input/images/osmnx.png}
-\caption{OSMnx map of manhattan}
-\end{figure}
-OSMnx: retrieve, construct, analyze, and visualize street networks from OpenStreetMap. OSMnx is a Python package that lets you download spatial geometries and construct, project, visualize, and analyze street networks from OpenStreetMap’s APIs. Users can download and construct walkable, drivable, or bikable urban networks with a single line of Python code, and then easily analyze and visualize them.\\
+\subsection{GraphFrames}
 
-{\bf Features}
-\begin{itemize}
-\item Download street networks anywhere in the world with a single line of code
-\item Download other infrastructure network types, place polygons, or building footprints as well
-\item Download by city name, polygon, bounding box, or point/address + network distance
-\item Get drivable, walkable, bikable, or all street networks
-\item Visualize the street network as a static image or leaflet web map
-\item Simplify and correct the network’s topology to clean and consolidate intersections
-\item Save networks to disk as shapefiles or GraphML
-\item Conduct topological and spatial analyses to automatically calculate dozens of indicators
-\item Calculate and plot shortest-path routes as a static image or leaflet web map
-\item Plot figure-ground diagrams of street networks and/or building footprints
-\item Download node elevations and calculate edge grades
-\item Visualize travel distance and travel time with isoline and isochrone maps
-\item Calculate and visualize street bearings and orientations\\
+\\GraphFrames is a package for Apache Spark which provides DataFrame-based Graphs. It provides high-level APIs in Scala, Java, and Python. It aims to provide both the functionality of GraphX and extended functionality taking advantage of Spark DataFrames. This extended functionality includes motif finding, DataFrame-based serialization, and highly expressive graph queries.\\
 
-\end{itemize}
+{\bf What are GraphFrames?}\\
+GraphX is to RDDs as GraphFrames are to DataFrames.\\
+
+GraphFrames represent graphs: vertices (e.g., users) and edges (e.g., relationships between users). If you are familiar with GraphX, then GraphFrames will be easy to learn. The key difference is that GraphFrames are based upon Spark DataFrames, rather than RDDs.\\
+
+GraphFrames also provide powerful tools for running queries and standard graph algorithms. With GraphFrames, you can easily search for patterns within graphs, find important vertices, and more. Refer to the User Guide for a full list of queries and algorithms.\\
 
 
-{\bf Installation}
+{\bf creating nodes using pagerank algorithm}
 \begin{verbatim}
-$ sudo apt-get install python-pip python-virtualenv
-$ virtualenv venv
-$ source venv/bin/activate
-$ pip install osmnx
-\end{verbatim}
+# Create a Vertex DataFrame with unique ID column "id"
+v = sqlContext.createDataFrame([
+  ("a", "Alice", 34),
+  ("b", "Bob", 36),
+  ("c", "Charlie", 30),
+], ["id", "name", "age"])
 
-{\bf Usage}
-\begin{verbatim}
-import osmnx as ox
-G = ox.graph_from_place('Punjab, India', network_type='drive')
-ox.plot_graph(ox.project_graph(G))
+# Create an Edge DataFrame with "src" and "dst" columns
+e = sqlContext.createDataFrame([
+  ("a", "b", "friend"),
+  ("b", "c", "follow"),
+  ("c", "b", "follow"),
+], ["src", "dst", "relationship"])
+
+# Create a GraphFrame
+from graphframes import *
+g = GraphFrame(v, e)
+
+# Query: Get in-degree of each vertex.
+g.inDegrees.show()
+
+# Query: Count the number of "follow" connections in the graph.
+g.edges.filter("relationship = 'follow'").count()
+
+# Run PageRank algorithm, and show results.
+results = g.pageRank(resetProbability=0.01, maxIter=20)
+results.vertices.select("id", "pagerank").show()
 \end{verbatim}

@@ -25,36 +25,6 @@ For data transfer, several database dumps are created, which are available for d
 
 The LinkedGeoData data uses the GeoSPARQL and well-known text (WKT) RDF vocabularies to represent OpenStreetMap data. It is a work of the Agile Knowledge Engineering and Semantic Web (AKSW) research group at the University of Leipzig, a group mostly known for DBpedia.
 
-
-\section{The Existing System}
-There are few existing systems for solving this particular problem like Sage or other softwares but
-they don’t have following features required by our mentor. These system were not open source
-and free web based software that were need.
-All exiting system suffers from at least one of the following system.
- \subsection{Limitations of previous system }
-\begin{itemize}
-\item No batch mode. 
-
-\item Don't give output as png images.
-
-\item They are costly.
-
-\item They don't save output.
-
-\item They need installation and a lot of system resources. 
-
-\item They don't save user session.
-
-\item Earlier it was on CGI, now moved to PHP. 
-\end{itemize}
-\subsection{Advantages of shifting the system from CGI to PHP:}
-\begin{itemize}
-\item PHP was specially designed for a websites, the facilities that web designers typically want in a scripting language are built into it.
-\item Another convenience is its handling of form input.
-\item Accessing databases is just as easy. There are built-in facilities in PHP to access MySQL, Dbase, Oracle, InterBase, and so on.
-\item Need to MIME encode your message? There's a function to do it for you too.
-\item When PHP scripts runs, If in case  you get error then messages will be like pinpointing the offending lines in your code to help you locate the error.
-\end{itemize} 
 \section{User Requirement Analysis}
 \begin{enumerate}
 	\item Using OSMnX to get the data from OSM servers.
