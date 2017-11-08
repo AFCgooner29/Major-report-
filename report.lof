@@ -3,30 +3,33 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OSMnx map of manhattan}}{16}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces NetworkX logo}}{17}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Django logo}}{19}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Django logo}}{22}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Apache Spark logo}}{23}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Spark cluster overview}}{26}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces OSM foundation}}{27}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ubuntu}}{29}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Ubuntu}}{31}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Ubuntu}}{31}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Ubuntu}}{32}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Ubuntu}}{32}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Ubuntu}}{33}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Ubuntu}}{33}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Ubuntu}}{34}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Ubuntu}}{34}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Ubuntu}}{35}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces MD \& JS}}{35}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Donald Knuth, Inventor Of T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} typesetting system}}{35}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Github Logo}}{38}{figure.4.20}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Git Logo}}{39}{figure.4.21}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Matplotlib Logo}}{16}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces OSMnx map of manhattan}}{17}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces NetworkX logo}}{18}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Django logo}}{20}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Django logo}}{23}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Apache Spark logo}}{23}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Spark cluster overview}}{27}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces OSM foundation}}{28}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ubuntu}}{30}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ubuntu1}}{32}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Ubuntu2}}{32}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Ubuntu3}}{33}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Ubuntu4}}{33}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ubuntu5}}{34}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Ubuntu6}}{34}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Ubuntu7}}{35}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Ubuntu8}}{35}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Ubuntu9}}{36}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces MD \& JS}}{36}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Donald Knuth, Inventor Of T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} typesetting system}}{36}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Github Logo}}{39}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Git Logo}}{40}{figure.4.22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Goa Road Network Plotted}}{42}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Punjab road network}}{43}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Pagerank using NetworkX}}{44}{figure.5.3}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Goa Road Network Plotted}}{43}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Punjab road network}}{44}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Pagerank using NetworkX}}{45}{figure.5.3}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Pagerank using GraphFrames}}{45}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces This travel time map shows how far we can walk in 5, 10, 15, 20, and 25 minutes from an origin point in downtown Berkeley, given an average walking speed of 4.5 km/hour (about 2.8 miles/hour). We can also visualize this by which points along the network we can reach within 5, 10, 15, 20, and 25 minutes}}{47}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces This travel time map shows how far we can walk in 5, 10, 15, 20, and 25 minutes from an origin point in downtown Berkeley, given an average walking speed of 4.5 km/hour (about 2.8 miles/hour). We can also visualize this by which points along the network we can reach within 5, 10, 15, 20, and 25 minutes}}{48}{figure.5.6}
 \addvspace {10\p@ }
