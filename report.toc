@@ -5,52 +5,74 @@
 \contentsline {subsection}{\numberline {2.1.2} Map production}{3}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3} Route planning}{4}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Data storage}{4}{subsection.2.1.4}
-\contentsline {section}{\numberline {2.2}User Requirement Analysis}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Feasibility Study}{4}{section.2.3}
-\contentsline {section}{\numberline {2.4}Types of Feasibility}{5}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Technical Feasibility}{5}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Economic Feasibility}{6}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Operational Feasibility}{7}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Technological Feasibility}{7}{subsection.2.4.4}
-\contentsline {subsection}{\numberline {2.4.5}Behavioral Feasibility}{7}{subsection.2.4.5}
-\contentsline {section}{\numberline {2.5}Objective of Project}{8}{section.2.5}
-\contentsline {chapter}{\numberline {3}Project Design}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Software Requirement Analysis}{9}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Functional Requirements}{9}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Other Specifications}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}Problem Formulation}{11}{section.3.3}
-\contentsline {section}{\numberline {3.4}Facilities required for proposed work}{11}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Hardware Requirements}{11}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Software Requirements}{11}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Methodology}{11}{section.3.5}
-\contentsline {section}{\numberline {3.6}Project Work}{11}{section.3.6}
-\contentsline {chapter}{\numberline {4}Development and Implementation}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction to tools}{13}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}OSMnx}{13}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}NetworkX}{14}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}GraphFrames}{15}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2} Introduction to OSM}{17}{section.4.2}
-\contentsline {section}{\numberline {4.3}Ubuntu: An open source OS}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Introduction to Reveal-js \& Reveal-md}{20}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Installation of reveal-md}{20}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Introduction to \LaTeX }{21}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Typesetting}{22}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Introduction to Github}{23}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}What is Git?}{24}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Installation of Git}{25}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Various Git Commands}{25}{subsection.4.6.3}
-\contentsline {subsubsection}{\numberline {4.6.3.1}Create Repositories}{25}{subsubsection.4.6.3.1}
-\contentsline {subsubsection}{\numberline {4.6.3.2}Make Changes}{25}{subsubsection.4.6.3.2}
-\contentsline {subsubsection}{\numberline {4.6.3.3}Group Changes}{25}{subsubsection.4.6.3.3}
-\contentsline {subsubsection}{\numberline {4.6.3.4}Synchronize Changes}{26}{subsubsection.4.6.3.4}
-\contentsline {chapter}{\numberline {5}Experimental Results and Comparison}{27}{chapter.5}
-\contentsline {section}{\numberline {5.1}Experimental Results}{27}{section.5.1}
-\contentsline {subsubsection}{\numberline {5.1.0.1}Create Road Networks}{28}{subsubsection.5.1.0.1}
-\contentsline {subsubsection}{\numberline {5.1.0.2}Create Road Networks}{28}{subsubsection.5.1.0.2}
-\contentsline {subsubsection}{\numberline {5.1.0.3}Create Road Networks}{28}{subsubsection.5.1.0.3}
-\contentsline {section}{\numberline {5.2}Conclusions}{28}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}When to use NetworkX}{28}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}When not to use NetworkX}{29}{subsection.5.2.2}
-\contentsline {chapter}{\numberline {6}Conclusion,Summary and Future Scope}{31}{chapter.6}
-\contentsline {section}{\numberline {6.1}Future Scope}{31}{section.6.1}
-\contentsline {section}{\numberline {6.2}Technical and Managerial Lesson Learnt}{31}{section.6.2}
+\contentsline {subsection}{\numberline {2.1.5}What is NetworkX?}{4}{subsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5.1}NetworkX Basics}{4}{subsubsection.2.1.5.1}
+\contentsline {subsubsection}{\numberline {2.1.5.2}Graphs}{5}{subsubsection.2.1.5.2}
+\contentsline {subsubsection}{\numberline {2.1.5.3}Nodes and Edges}{5}{subsubsection.2.1.5.3}
+\contentsline {subsubsection}{\numberline {2.1.5.4}Graph Creation}{6}{subsubsection.2.1.5.4}
+\contentsline {subsubsection}{\numberline {2.1.5.5}Graph Reporting}{7}{subsubsection.2.1.5.5}
+\contentsline {subsubsection}{\numberline {2.1.5.6}Algorithms}{7}{subsubsection.2.1.5.6}
+\contentsline {section}{\numberline {2.2}User Requirement Analysis}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Feasibility Study}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Types of Feasibility}{8}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Technical Feasibility}{8}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Economic Feasibility}{9}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Operational Feasibility}{10}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Technological Feasibility}{10}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Behavioral Feasibility}{10}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Objective of Project}{11}{section.2.5}
+\contentsline {chapter}{\numberline {3}Project Design}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Software Requirement Analysis}{12}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Functional Requirements}{12}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Other Specifications}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Problem Formulation}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Facilities required for proposed work}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Hardware Requirements}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Software Requirements}{14}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Methodology}{14}{section.3.5}
+\contentsline {section}{\numberline {3.6}Project Work}{14}{section.3.6}
+\contentsline {chapter}{\numberline {4}Development and Implementation}{16}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction to tools}{16}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}OSMnx}{16}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}NetworkX}{17}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}GraphFrames}{18}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Django}{19}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}What is Django?}{19}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}Where did it come from?}{20}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.3}How popular is Django?}{21}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.4}Is Django opinionated?}{21}{subsubsection.4.1.4.4}
+\contentsline {subsubsection}{\numberline {4.1.4.5}What does Django code looks like?}{22}{subsubsection.4.1.4.5}
+\contentsline {subsection}{\numberline {4.1.5}Apache Spark}{23}{subsection.4.1.5}
+\contentsline {subsubsection}{\numberline {4.1.5.1}What is Spark?}{24}{subsubsection.4.1.5.1}
+\contentsline {subsubsection}{\numberline {4.1.5.2}Hadoop and Spark}{25}{subsubsection.4.1.5.2}
+\contentsline {subsubsection}{\numberline {4.1.5.3}Apache Spark and its components}{25}{subsubsection.4.1.5.3}
+\contentsline {subsubsection}{\numberline {4.1.5.4}Spark SQL, DataFrames and Datasets}{25}{subsubsection.4.1.5.4}
+\contentsline {section}{\numberline {4.2} Introduction to OSM}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}Ubuntu: An open source OS}{29}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Installing Ubuntu}{29}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Download Ubuntu}{30}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}Try before installing}{30}{subsubsection.4.3.1.2}
+\contentsline {subsubsection}{\numberline {4.3.1.3}Install Ubuntu}{30}{subsubsection.4.3.1.3}
+\contentsline {section}{\numberline {4.4}Introduction to Reveal-js \& Reveal-md}{31}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Installation of reveal-md}{33}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Introduction to \LaTeX }{35}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Typesetting}{36}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Introduction to Github}{38}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}What is Git?}{39}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Installation of Git}{40}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Various Git Commands}{40}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}Create Repositories}{40}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}Make Changes}{40}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}Group Changes}{40}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.4}Synchronize Changes}{41}{subsubsection.4.6.3.4}
+\contentsline {chapter}{\numberline {5}Experimental Results and Comparison}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}Experimental Results}{42}{section.5.1}
+\contentsline {subsubsection}{\numberline {5.1.0.1}Create Road Networks}{43}{subsubsection.5.1.0.1}
+\contentsline {subsubsection}{\numberline {5.1.0.2}Create Road Networks}{43}{subsubsection.5.1.0.2}
+\contentsline {subsubsection}{\numberline {5.1.0.3}Create Road Networks}{43}{subsubsection.5.1.0.3}
+\contentsline {section}{\numberline {5.2}Conclusions}{43}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}When to use NetworkX}{43}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}When not to use NetworkX}{44}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}Conclusion,Summary and Future Scope}{46}{chapter.6}
+\contentsline {section}{\numberline {6.1}Future Scope}{46}{section.6.1}
+\contentsline {section}{\numberline {6.2}Technical and Managerial Lesson Learnt}{46}{section.6.2}

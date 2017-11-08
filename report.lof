@@ -3,17 +3,30 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces OSMnx map of manhattan}}{13}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces NetworkX logo}}{14}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces OSM foundation}}{17}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Ubuntu}}{19}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces MD \& JS}}{20}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Donald Knuth, Inventor Of T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} typesetting system}}{21}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Github Logo}}{23}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Git Logo}}{24}{figure.4.8}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces OSMnx map of manhattan}}{16}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces NetworkX logo}}{17}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Django logo}}{19}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Django logo}}{22}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Apache Spark logo}}{23}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Spark cluster overview}}{26}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces OSM foundation}}{27}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ubuntu}}{29}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ubuntu}}{31}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ubuntu}}{31}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Ubuntu}}{32}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Ubuntu}}{32}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Ubuntu}}{33}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ubuntu}}{33}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Ubuntu}}{34}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Ubuntu}}{34}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Ubuntu}}{35}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces MD \& JS}}{35}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Donald Knuth, Inventor Of T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}{} typesetting system}}{35}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Github Logo}}{38}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Git Logo}}{39}{figure.4.21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Goa Road Network Plotted}}{27}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Punjab road network}}{28}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Pagerank using NetworkX}}{29}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Pagerank using GraphFrames}}{30}{figure.5.4}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Goa Road Network Plotted}}{42}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Punjab road network}}{43}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Pagerank using NetworkX}}{44}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Pagerank using GraphFrames}}{45}{figure.5.4}
 \addvspace {10\p@ }
